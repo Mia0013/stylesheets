@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #121212;
+    color: #ffffff;
+    font-family: "Adam";
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  transition: 0.3s;
+}
+
+/* body.light-mode {                                      Light mode stuff
+    background-color: #ffffff;
+    color: #121212;
+    font-family: "Adam";
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  transition: 0.3s;
+} 
+
+.light-mode .text-title{
+    color: #121212;
+    font-family: "Adam";
+}
+
+.light-mode #footer {
+  font-family: "Adam";
+    color: #121212;
+}
+
+.light-mode .button-light-mode-toggle {
+    color: #121212; 
+}
+
+.button-light-mode-toggle {
+  cursor: pointer;
+}
+
+#button-toggle {
+  
+}
+
+*/
+
+.main-container {
+  height: 100%;
+	 width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30;
+}
+
+.big-img {
+  margin-bottom: 5vh;
+}
+
+.flex-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  color: inherit;
+}
+
+@font-face {
+  font-family: "Adam";
+  src: url("Adam.otf");
+}
+
+.text-title {
+  font-size: 2em;
+  font-weight: normal;
+  font-style: normal;
+  text-align: justify;
+  opacity: 1;
+    font-family: "Adam";
+    color: #ffffff;         /* ba2f41 */
+}
+
+.text-work {
+  font-size: 2em;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  opacity: 1;
+    font-family: "Adam";
+    color: #ba2f41;
+}
+
+.text-subtitle {
+  font-size: 1.5em;
+  font-weight: normal;
+  font-style: normal;
+  text-align: justify;
+  opacity: 1;
+    font-family: "Adam";
+}
+
+.social {
+  font-size: 3em;
+   font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    opacity: 1;
+	font-family: "Adam";
+    margin-bottom: 5vh;
+}
+
+.bhv {
+  transition-duration: 0.2s;
+  opacity: 1;
+}
+
+.bhv:hover {
+  transition-duration: 0.2s;
+  opacity: 0.6;
+}
+
+.social-hb {
+  font-size: 3em;
+   font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    opacity: 1;
+	font-family: "Adam";
+    margin-bottom: 5vh;
+}
+
+/* .social-lm {
+  font-size: 3em;
+   font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    opacity: 1;
+	font-family: "Adam";
+    margin-bottom: 5vh;
+} */
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5em;    /* Footer height */
+}
+
+.spacing-big {
+  margin-top: 8vh;
+}
+
+.spacing-bottom {
+  margin-bottom: 10vh;
+}
+
+.spacing {
+  margin-top: 4vh;
+}
+
+#red {
+    font-family: "Adam";
+    color: #b8162c;
+}
+
+#blue {
+    font-family: "Adam";
+    color: #62b9d1;
+}
+
+#pink {
+    font-family: "Adam";
+    color: #ffcccc;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  font-family: "Adam";
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .big-img {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+
+@media only screen and (min-width: 600px) {
+  .big-img {
+    width: 25%;
+    height: 25%;
+  }
+}
